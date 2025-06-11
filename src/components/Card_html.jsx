@@ -53,7 +53,6 @@ const Html = styled.div`
   align-items: flex-start;
   gap: 24px;
   padding: 40px;
-  min-height: 100vh;
 `;
 
 export default function Card_html() {

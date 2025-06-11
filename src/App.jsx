@@ -6,7 +6,7 @@ import Card_js from "./components/Card_js";
 
 export default function App() {
   return (
-    <div>
+    <DivApp>
       <DivAAA>HTML</DivAAA>
       <Card_html />
 
@@ -18,9 +18,13 @@ export default function App() {
 
       <DivAAA>REACT</DivAAA>
       <Card_react />
-    </div>
+    </DivApp>
   );
 }
+
+const DivApp = styled.div`
+  margin-top: 50px;
+`;
 
 const DivAAA = styled.h1`
   margin: 0 auto;
