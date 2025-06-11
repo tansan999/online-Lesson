@@ -6,9 +6,19 @@ import Card_js from "./components/Card_js";
 
 export default function App() {
   return (
-    <FonApp>
-      <Card />
-    </FonApp>
+    <div>
+      <DivAAA>HTML</DivAAA>
+      <Card_html />
+
+      <DivAAA>CSS</DivAAA>
+      <Card_css />
+
+      <DivAAA>JS</DivAAA>
+      <Card_js />
+
+      <DivAAA>REACT</DivAAA>
+      <Card_react />
+    </div>
   );
 }
 
@@ -24,8 +34,4 @@ const DivAAA = styled.h1`
   background-clip: text;
   margin-bottom: 32px;
   text-shadow: 0 2px 12px #000a, 0 1px 0 #ffd70080;
-`;
-
-const FonApp = styled.div`
- 
 `;
