@@ -5,6 +5,7 @@ export default function App() {
   return (
     <FonApp>
       <Card />
+      <h1>aaa</h1>
     </FonApp>
   );
 }
