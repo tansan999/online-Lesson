@@ -7,17 +7,7 @@ import Card_js from "./components/Card_js";
 export default function App() {
   return (
     <FonApp>
-      <DivAAA>HTML</DivAAA>
-      <Card_html />
-
-      <DivAAA>CSS</DivAAA>
-      <Card_css />
-
-      <DivAAA>JS</DivAAA>
-      <Card_js />
-
-      <DivAAA>REACT</DivAAA>
-      <Card_react />
+      <Card />
     </FonApp>
   );
 }
