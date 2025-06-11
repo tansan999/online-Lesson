@@ -9,7 +9,6 @@ const CardWrapper = styled.div`
   border-radius: 16px;
   padding: 24px;
   max-width: 400px;
-  /* margin: 24px auto; */
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.7);
 `;
 
@@ -34,9 +33,19 @@ const CardLink = styled.a`
   }
 `;
 
-export default function Card() {
+const React_ = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 40px;
+  min-height: 100vh;
+`;
+
+export default function Card_react() {
   return (
-    <>
+    <React_>
       {defaultNotes.map((note, idx) => (
         <CardWrapper key={idx}>
           <CardTitle>{note.title}</CardTitle>
@@ -51,6 +60,6 @@ export default function Card() {
           )}
         </CardWrapper>
       ))}
-    </>
+    </React_>
   );
 }
